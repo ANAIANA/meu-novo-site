@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #F0E68C; /* Cor de fundo */
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff6363;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ff4c4c;
+}
+
+.sobre, .produtos, .contato {
+    padding: 50px 0;
+}
+
+.sobre h2, .produtos h2, .contato h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtos-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto {
+    text-align: center;
+    width: 30%;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contato input, .contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato button {
+    background-color: #ff6363;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contato button:hover {
+    background-color: #ff4c4c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
